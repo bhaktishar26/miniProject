@@ -53,6 +53,10 @@ header{
     border-radius: 20px;
     color:white;
 }
+.login:hover{
+    color:black;
+    background-color: none;
+}
 .start{
     width:150px;
     padding: 8px;
@@ -62,7 +66,6 @@ header{
 }
 .start:hover{
     color:black;
-    background-color:  rgba(255, 0, 0, 0.479);
 }
 .content{
     width:100%;
@@ -161,8 +164,8 @@ button a{
     color:white;
 }
 button a:hover{
-    color:yellow;
-    background-color: rgb(252, 8, 8);
+    color:black;
+    background-color: rgb(250, 8, 8);
 }
 h4{
     float: left;
@@ -226,23 +229,15 @@ h4{
     background-color: #424242;
     border-radius: 50%;
     margin-left: 10px;
-    margin-bottom: 35px;;
+    margin-bottom: 35px;
 }
 .sec3 ul li i{
     color: white;
     font-size: 24px;
     text-align: center;
 }
-.sec3 ul li :nth-child(1){
-    background-color: #3b5999;
+.sec3 ul li :hover:first-child{
+    background-color: #697fb9;
 }
-.sec3 ul li :nth-child(2){
-    background-color: #55acee;
-}
-.sec3 ul li :nth-child(3){
-    background-color:pink;
-}
-.sec3 ul li :nth-child(4){
-    background-color: #0077b5;
-}
+
 
