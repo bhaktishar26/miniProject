@@ -8,8 +8,9 @@
 header{
     height:150vh;
     width: 100%;
-    background: url('../Image/s8.jpg') no-repeat center center;
-    background-size:cover;
+    background-image: url('../Image/victory-08.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .header_menu{
         width:100%;
@@ -17,7 +18,6 @@ header{
         align-items: center;
         flex-direction: row;
         height:70px;
-        background-color: #033249;
         position: absolute;
 }
 .header_menu img{
