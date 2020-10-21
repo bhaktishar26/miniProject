@@ -6,11 +6,12 @@
     scroll-behavior: smooth;
 }
 header{
-    height:150vh;
+    height:130vh;
     width: 100%;
-    background-image: url('../Image/victory-08.jpg') ;
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('../Image/victory-08.jpg') ;
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 .header_menu{
         width:100%;
@@ -19,11 +20,6 @@ header{
         flex-direction: row;
         height:70px;
         position: absolute;
-}
-.header_menu img{
-    width:20%;
-    text-align: center;
-    height:50px;
 }
 .menu_list{
     width:80%;
@@ -45,6 +41,7 @@ header{
 }
 .menu_list li a:hover{
     color:black;
+    text-decoration: underline;
 }
 .login{
     width:100px;
@@ -54,8 +51,7 @@ header{
     color:white;
 }
 .login:hover{
-    color:black;
-    background-color: none;
+    background-color: darkblue;
 }
 .start{
     width:150px;
@@ -65,7 +61,7 @@ header{
     font-size:20px;
 }
 .start:hover{
-    color:black;
+    background-color: darkred;
 }
 .content{
     width:100%;
@@ -73,8 +69,9 @@ header{
     position: absolute;
     top:20%;
     left:12%;
+    filter: brightness(500%);
 }
-.content{
+.content .start{
     color: black;
 }
 .content .start a{
@@ -83,7 +80,6 @@ header{
 }
 .content .start:hover{
     background-color:  rgba(255, 0, 0, 0.479);
-    color: black;
 }
 .box{
     height:50px;
@@ -164,7 +160,6 @@ button a{
     color:white;
 }
 button a:hover{
-    color:black;
     background-color: rgb(250, 8, 8);
 }
 h4{
