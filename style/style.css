@@ -976,7 +976,7 @@ h4{
     .menu_list li{
         display: inline-block;
         list-style: none;
-        margin-right: 4px;
+        margin-right: 0px;
         }
     .menu_list li a{
         display: block;
@@ -984,8 +984,8 @@ h4{
         text-decoration: none;
         font-family: monospace;
         position: relative;
-        font-size: 10px;
-        margin: 2px 3px 3px 0px;
+        font-size: 5px;
+        margin:0px;
         padding:0px;
     }
     .menu_list li a::before{
@@ -1004,7 +1004,7 @@ h4{
         width:100%
     }
     .login{
-        width:60px;
+        width:40px;
         background-color: #033260;
         padding:5px;
         border-radius: 5px;
@@ -1019,10 +1019,10 @@ h4{
         text-decoration: none;
     }
     .start{
-        width:120px;
+        width:80px;
         background-color:red;
         border-radius: 5px;
-        font-size:16px;
+        font-size:12px;
         height:50px;
         margin-top: 10px;
         height: 30px;
@@ -1035,20 +1035,20 @@ h4{
         width:100%;
         height:300px;
         position: absolute;
-        top:28%;
+        top:35%;
         left:8%;
         filter: brightness(500%);
     }
     .content h1{
         color:rgb(91, 38, 236);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 18px;
+        font-size: 15px;
         padding-left:0px;
         margin-bottom:0px;
     }
     .content h2,h3{
         color: white;
-        font-size:14px;
+        font-size:12px;
         margin-left:0px;
     }
     .content .start{
@@ -1079,7 +1079,7 @@ h4{
         margin-left: 0px;
     }
     .below{
-        font-size:15px;
+        font-size:8px;
         padding-top: 50px;
         width: 100%;
         height: 200px;
@@ -1150,8 +1150,8 @@ h4{
         width:25%;
         height:370px;
         float:left;
-        margin-left:130px;
-        font-size: 11px;
+        margin-left:60px;
+        font-size: 9px;
         text-align: center;
         color: rgb(63, 53, 53);
         margin-top:1px;
@@ -1160,8 +1160,8 @@ h4{
         width:25%;
         height:350px;
         float:left;
-        margin-left:40px;
-        font-size: 11px;
+        margin-left:60px;
+        font-size: 9px;
         text-align: center;
         color: rgb(63, 53, 53);
         margin-top:1px;
@@ -1182,8 +1182,8 @@ h4{
     }
     .table h4{
         padding-top: 90px;
-        font-size:9px;
-        margin-left: 50px;
+        font-size:7px;
+        margin-left: 30px;
     }
     button a{
         text-decoration: none;
@@ -1197,8 +1197,8 @@ h4{
         width:100%;
         display: flex;
         float:left;
-        font-size: 12px;
-        margin-left: 80px;
+        font-size: 9px;
+        margin-left: 40px;
         margin-top:20px;
     }
     .end li{
@@ -1218,8 +1218,8 @@ h4{
     .en1{
         display: flex;
         float:left;
-        margin-left: 90px;
-        font-size:10px;
+        margin-left: 50px;
+        font-size:7px;
     }
     .en1 li{
         
@@ -1251,7 +1251,7 @@ h4{
     }
     .sec3 ul li i{
         color: white;
-        font-size: 19px;
+        font-size: 15px;
         text-align: center;
     }
     .sec3 ul li :hover:first-child{
