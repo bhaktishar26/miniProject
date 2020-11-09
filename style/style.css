@@ -255,35 +255,34 @@ h4{
 
 }
 .end{
-    height:50px;
+    height:25px;
     width:100%;
     display: flex;
     float:left;
-    margin-left: 490px;
-    margin-top:20px;
+    margin-left: 550px;
+    font-size: 13px;
+    margin-bottom: 0;
 }
 .end li{
     display: inline;
     list-style: none;
-    padding:10px;
+    padding-right:10px;
 }
 .end li a{
     text-decoration: none;
     color:grey;
 }
-.dn{
-    
-    height:70px;
-    width:100%;
-}
 .en1{
+    width: 100%;
+    height:65px;
     display: flex;
     float:left;
-    margin-left: 500px;
-    font-size:12px;
+    font-size:10px;
+    margin-left: 550px;
+    margin-top: 0px;
 }
 .en1 li{
-    
+    margin-top: 0px;
     display: inline;
     list-style: none;
     padding-right:10px;
@@ -297,8 +296,10 @@ h4{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 20px;
-    float: left;
+    padding: 15px;
+    margin-top: 0px;
+    margin-right: 470px;
+    float: right;
     
 }
 .sec3 ul{
@@ -308,12 +309,11 @@ h4{
     display:inline-block;
     background-color: #424242;
     border-radius: 50%;
-    margin-bottom: 35px;
     padding:2px;
 }
 .sec3 ul li i{
     color: white;
-    font-size: 24px;
+    font-size: 15px;
     text-align: center;
 }
 .sec3 ul li :hover:first-child{
