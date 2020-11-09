@@ -1076,7 +1076,7 @@ h4{
         margin-right: 12px;
         margin-left: 0px;
     }
-    .below h1{
+    .below{
         font-size:8px;
         padding-top: 50px;
         width: 100%;
@@ -1086,7 +1086,6 @@ h4{
         text-align: center;
         position: absolute;
         margin-right: 20px;
-        margin-bottom: 20px;
     }
     
     h2{
