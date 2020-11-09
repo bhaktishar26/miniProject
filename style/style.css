@@ -1078,10 +1078,11 @@ h4{
     }
     .below{
         font-size:8px;
+        padding-top: 50px;
         width: 100%;
-        height: 180px;
+        height: 200px;
         color:white;
-        top:141%;
+        top:143%;
         text-align: center;
         position: absolute;
         margin-right: 20px;
@@ -1208,7 +1209,7 @@ h4{
     }
     .en1{
         width: 100%;
-        height:70px;
+        height:8px;
         display: flex;
         float:left;
         font-size:8px;
