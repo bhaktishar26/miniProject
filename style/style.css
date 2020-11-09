@@ -987,21 +987,6 @@ h4{
         margin:0px;
         padding:0px;
     }
-    .menu_list li a::before{
-        content: "";
-        width:0px;
-        height: 10px;
-        background: black;
-        position: absolute;
-        top: 100%;
-        left:0;
-        transition: .5s;
-    
-    }
-    .menu_list li a:hover::before{
-        transform: translateX(0%);
-        width:100%
-    }
     .login{
         width:40px;
         background-color: #033260;
