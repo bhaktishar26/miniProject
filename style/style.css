@@ -1082,7 +1082,7 @@ h4{
         width: 100%;
         height: 200px;
         color:white;
-        top:142%;
+        top:143%;
         text-align: center;
         position: absolute;
         margin-right: 20px;
@@ -1233,7 +1233,7 @@ h4{
         text-align: center;
         padding: 8px;
         margin-top: 20px;
-        margin-right: 150px;
+        margin-right: 145px;
         float: right;
         
     }
@@ -1248,7 +1248,7 @@ h4{
     }
     .sec3 ul li i{
         color: white;
-        font-size: 13px;
+        font-size: 10px;
         text-align: center;
     }
     .sec3 ul li :hover:first-child{
