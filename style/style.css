@@ -346,7 +346,7 @@ h4{
     .header-menu  nav ul li a:hover,
     .header-menu nav ul li a.active{
         color: #fff;
-        background:black
+        background:black;
     }
     .menu-toggle{
         color: #fff;
