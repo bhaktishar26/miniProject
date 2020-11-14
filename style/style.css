@@ -533,6 +533,17 @@ h4{
 }
 /* second breakpoint */
 @media(max-width:800px){
+    @keyframes animate{
+        0%,75%{
+            background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url('../Image/student-study-stress-img-2048x1152.jpg');
+        }
+        25%,100%{
+            background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url('../Image/dan-meyers-hluOJZjLVXc-unsplash.jpg');
+        }
+        50%{
+            background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url('../Image/victory-08.jpg');
+        }
+    }
     .header-menu{
         padding: 0 20px;
         background-color:rgb(92, 56, 56);
@@ -733,6 +744,18 @@ h4{
     }}
 /* third breakpoint*/
 @media(max-width:625px){
+    
+@keyframes animate{
+    0%,75%{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url('../Image/student-study-stress-img-2048x1152.jpg');
+    }
+    25%,100%{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url('../Image/dan-meyers-hluOJZjLVXc-unsplash.jpg');
+    }
+    50%{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url('../Image/victory-08.jpg');
+    }
+}
     .header-menu{
         padding: 0 20px;
         background-color: black;
@@ -761,6 +784,10 @@ h4{
     .header-menu nav ul li a{
         border-bottom: 1px solid rbga(0,0,0,0,0.2);
         margin-bottom: 30px;
+    }
+    .start{
+        width:120px;
+        font-size:13px;
     }
     .content{
         width:100%;
