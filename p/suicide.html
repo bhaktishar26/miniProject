@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suicide Prevention</title>
+    <style>
+        
+        * {
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box; 
+          font-family: Arial, Helvetica, sans-serif;
+          
+        }
+    
+        /* 
+          --Resolve Position Fixed Issue-- 
+                          & 
+            ----------Smooth Scroll ------ 
+          */
+    
+        html {
+          scroll-padding-top: 70px;
+          scroll-behavior: smooth;
+        }
+    
+        #container {
+          width: 100%;
+          background-color: plum;
+          
+        }
+    
+        /* ------Header Container-------- */
+    
+        #header {
+    background-image: linear-gradient(black, grey);
+    width: 100%;
+    height: 55px;
+    /* max-width: 1200px; */
+    position: fixed;
+    top: 0;
+}
+.menu {
+    list-style: none;
+    float: right;
+    padding: 0 10px;
+}
+.menu li {
+    display: inline-block;
+    line-height: 50px;
+}
+.menu li a {
+    transition: 0.4s;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+.menu li a:hover {
+    color:white;
+    background-color: grey;
+}
+.show-btn,.hide-btn,#check {
+    font-size: 30px;
+    line-height: 70px;
+    color: white;
+    display: none;
+    float: right;
+    padding-right: 20px;
+}
+.card {
+  
+  width: 100%;
+  margin-left: 60px;
+  
+  font-family: arial;
+  margin-top: 10%;
+}
+.box{
+            width:30%;
+            float:left;
+            margin:20px 15px;
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+           
+        }
+        .box img{
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .box h4{
+            margin: 0px 10px;
+            text-align: center;
+            font-size: 20px;
+        }
+        p{
+            margin: 10px;
+            font-size: 15px;
+            text-align: justify;
+            line-height: 28px;
+            font-size: 17px;
+        }
+        .box a{
+          
+            margin-left: 10px;
+            color: #fda951;
+            
+            text-decoration: none;
+           
+        }
+        .box h4:hover{
+          color:purple;
+          text-decoration: underline;
+        }
+        .box img:hover{
+          color:black;
+          opacity: 0.7;
+          
+        }
+        .box a:hover{
+          color:palevioletred;
+        }
+
+        </style>
+</head>
+<body>
+    
+    <div id="container">
+      <a name="top"></a>
+      <div id="header">
+          <input type="checkbox" id="check">
+          <label for="check" class="show-btn">
+              <i class="fa fa-bars"></i>
+          </label>
+          <ul class="menu">
+              <li style="float: left; margin-right: 400px;"><a>FreeFly</a></li>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../p/Blogs1.html">Blogs</a></li>
+              <li><a href="stress.html">Stress Meter</a></li>
+              <li><a href="#">Suicide Prevention</a></li>
+              <li><a href="../p/faq.html">FAQ</a></li>
+              <li><a href="../p/contact.html">Contact</a></li> 
+              <label for="check" class="hide-btn">
+                  <i class="fa fa-times"></i>
+              </label>
+          </ul>
+      </div>
+        <div class="card">
+            
+            <h1>Suicide Prevention</h1>
+            <hr style="height:4px;border-width:0;width: 95%;background-color:#fda951">
+            <div class="box">
+              <img src="../Image/Celebrities-Who-Survived-Suicide-To-Enjoy-Goodness-Of-Life-400x250.jpg" alt="">
+              <h4>9 Celebrities Who Survived Suicide To Enjoy Goodness Of Life</h4>
+              <p>
+                We all idolize celebrities in our real life but their experiences speak out clearly that they are just as human as we are and can face complications personally. The reasons could vary from breakup wit...
+              </p>
+              <a href="../articles/suicide1.html">Read More</a>
+      </div>
+      <div class="box">
+          <img src="../Image/Myths-and-Facts-about-Suicidal-behaviors-400x250.jpg" alt="">
+          <h4>Myths And Facts About Suicidal Behavior</h4>
+          <p>
+            around suicidal behaviors. Psychologists stated that suicidal behavior is an urge to cry desperately. Some state that suicidal behavior comes from the exceeded pain when one cannot cope with the pain ...
+          </p>
+          <a href="../articles/suicide2.html">Read More</a>
+      </div>
+      <div class="box">
+          <img src="../Image/Suicide-Prevention-400x250.jpg" alt="">
+          <h4>Suicide Prevention: Your 4 Steps Can Save Someone’s Life! (Learn Them)</h4>
+          <p>
+            Is there someone in your contact who is acting quite off recently or is having suicidal thoughts? Do you wish to help them in the best way possible? Yes? Well, you are at the right place. We are sha...
+          </p>
+          <a href="../articles/suicide3.html">Read More</a>
+      </div>
+      <div class="box">
+          <img src="../Image/DON’T-Feel-Helpless-400x250.jpg" alt="">
+          <h4>Suicide Prevention Week 2020: Suicide Helpline Numbers Are Blessing In Disguise</h4>
+          <p>
+            CalmSage is with you in every possible distress of your life. This Suicide Prevention Week 2020, we are providing you helpline numbers that can show you that there is light at the end of the tunnel, a...
+          </p>
+          <a href="../articles/suicide4.html">Read More</a>
+      </div>
+          </div>
+      
+</body>
+</html>
