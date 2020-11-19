@@ -171,19 +171,7 @@
   .contact-form .send-btn:hover{
     background: #0582E3;
   }
-  @media(max-width:1255){
-    .header-menu nav ul li a {
-        font-size: 8px;
-        margin-left: 5px;
-    }
-    .contact-form .text-box{
-        margin-top: 50px;
-    }
-    .contact-form  h2{
-        margin-top: 50px;
-    }
-}
-  @media screen and (max-width: 1155px){
+  @media screen and (max-width: 1256px){
     .header-menu{
         padding: 0 20px;
         background-color: black;
@@ -218,8 +206,9 @@
       flex-direction: column;
     }
   
-    .contact-info, .contact-form{
-      margin: 70px 50px 0 50px;
+    .contact-info{
+      margin: 70px 140px 0 50px;
+      font-size: 20px;
     }
     .contact-form{
         margin: 50px 50px;
@@ -234,6 +223,22 @@
       width: 100%;
     }
   }
+  @media(max-width:550px){
+      .contact-info{
+          font-size: 10px;
+          text-align: center;
+      }
+  }
+  @media(max-width:380px){
+      .contact-info{
+          font-size: 8px;
+      }
+  }
+  @media(max-width:357px){
+    .contact-info{
+        font-size: 6px;
+    }
+}
   
   /*css for alert messages*/
   
