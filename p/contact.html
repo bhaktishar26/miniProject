@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"/>
   <link rel="stylesheet" type="text/css" href="../style/contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
 </head>
 <body>
   <header>
@@ -35,60 +36,33 @@
         })
     </script>  
 </header>
-<section class="contact">
-<div class="content">
-  <h2>Contact Us</h2>
-  <p>Do you have any question , concern ,idea,feedback or problem?
-  Take a look at our <a href="#">frequently asked questions</a> for some quick answers. If you still need assistance,please fill out the form below and we'd be happy to help!
-  </p>
-</div>
-<div class="container">
-<div class="contactForm">
-<form>
-  <h2>Send Message</h2>
-  <div class="inputBox">
-      <input type="text" name="" required="required">
-      <span>Full Name</span>
-  </div>
-  <div class="inputBox">
-      <input type="text" name="" required="required">
-      <span>Email</span>
-  </div>
-  <div class="inputBox">
-      <textarea required="required"></textarea>
-      <span>Type Your Message...</span>
-  </div>
-  <div class="inputBox">
-      <input type="submit" name="" value="SUBMIT">
-  </div>
-</form>
-</div>
-</div>
-</section> 
-<section class="sec3">
-  <ul>
-    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-  </ul>
-</section>
-<section class="end">
-  <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Advice</a></li>
-      <li><a href="#">FAQ</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Contact</a></li>
-  </ul>
-</section>
-<section class="en1">
-  <ul>
-    <li><a href="#">Terms & Condition</a></li>
-    <li><a href="#">Privacy Policy</a></li>
-    <li><a href="#">Web Accessibility</a></li>
-    <li><a href="#">&copy;2020 FreeFly</a></li>
-  </ul>
-</section>  
+<!--alert messages start
+    <div class="alert-success">
+      <span>Message Sent! Thank you for contacting us.</span>
+    </div>
+    <div class="alert-error">
+      <span>Something went wrong! Please try again.</span>
+    </div>
+    alert messages end-->
+
+    <!--contact section start-->
+    <div class="contact-section">
+      <div class="contact-info">
+        <div><i class="fas fa-map-marker-alt"></i>Address, City, Country</div>
+        <div><i class="fas fa-envelope"></i>contact@email.com</div>
+        <div><i class="fas fa-phone"></i>+00 0000 000 000</div>
+        <div><i class="fas fa-clock"></i>Mon - Fri 8:00 AM to 5:00 PM</div>
+      </div>
+      <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form class="contact" action="" method="post">
+          <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+          <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <input type="submit" name="submit" class="send-btn" value="Send">
+        </form>
+      </div>
+    </div>
+    <!--contact section end-->
 </body>
 </html>
