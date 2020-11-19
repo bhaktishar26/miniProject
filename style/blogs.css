@@ -7,9 +7,17 @@
 body {
     background-image: linear-gradient( #50223C,#2A363B,#EB4A5F,#50223C,#50223C,#2A363B,#EB4A5F,#2A363B,#50223C ) ;
 }
+#mainNav {
+    background-image: linear-gradient(black,grey) ;
+}
+.nav-item a:hover {
+   background-color: gray;
+}
+
 .middle {
     width: 100%;
-    height: 1500px;
+    height: 150vh;
+    flex-direction: column;
     /* border: 2px solid blue; */
 }
 .head h1 {
@@ -23,13 +31,15 @@ body {
     width: 100%;
     height: 200px;
     border-radius: 0px 0px 50px 50px;
+    margin-top: 50px;
 }
 #box {
-    width: 300px;
-    height: 500px;
+    width: 25%;
+    height: 550px;
     border: 5px solid rgb(7, 116, 160);
+    margin: 50px;
     float: left;
-    margin: 80px 80px 80px 110px;
+    /* margin: 80px 80px 80px 110px; */
     background-color: whitesmoke ;
     border-radius: 30px;
 }
@@ -43,7 +53,7 @@ body {
     text-align: justify;
 }
 #box img {
-    width: 290px;
+    width: 100%;
     height: 250px;
     border-radius: 30px;
     border: 3px solid white;
@@ -55,13 +65,14 @@ body {
     color: white;
     padding: 10px;
     border-radius: 10px;
-    text-decoration: none;
-    margin-top: 20px;
-    margin-left: 45px;
-    width: 200px;
+    margin: 40px;
+    text-decoration: none; 
+    width: 80%;
 }
 #box a:hover {
     background-color: rgb(175, 6, 6);
+    text-decoration: none;
+    color: white;
 }
 .bottom {
     width: 100%;
@@ -71,7 +82,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    background-color: black;
+    background: linear-gradient(120deg, pink, brown);
 }
 .bottom ul {
     list-style-type: none;
@@ -97,3 +108,101 @@ body {
     background-color:whitesmoke;
     color:black;
 }
+
+
+@media (min-width: 801px) and (max-width: 1199px) {
+    .middle {
+        width: 100%;
+        height: 150vh;
+        flex-direction: column;
+    
+        /* border: 2px solid blue; */
+    }
+
+    .head h1 {
+        color:white;
+        text-align: center;
+        padding-top: 50px;
+        font-size: 60px;
+    }
+    .head {
+        background-image: linear-gradient(rgb(15, 19, 1),rgb(9, 136, 145));
+        width: 100%;
+        height: 200px;
+        border-radius: 0px 0px 50px 50px;
+    }
+    #box {
+        width: 25%;
+        height: 90vh;
+        border: 5px solid rgb(7, 116, 160);
+        margin: 30px;
+        float: left;
+        background: linear-gradient(120deg, pink, white) ;
+        border-radius: 30px;
+    }
+    #box h2 {
+        padding-top: 10px;
+        text-align: center;
+    }
+    
+    #box p {
+        margin: 20px;
+    }
+    #box img {
+        width: 100%;
+        height: 30vh;
+        border-radius: 30px;
+        border: 3px solid white;
+    }
+     #box a:link, a:visited {
+        text-align: center;
+        background-color: red;
+        display: block;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        text-decoration: none;
+        margin: 10px;
+        width: 60%;
+    }
+    #box a:hover {
+        background-color: rgb(175, 6, 6);
+    }
+    .bottom {
+        width: 100%;
+        height: 70px;
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        background: linear-gradient(120deg, pink, brown);
+    }
+    .bottom ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    .bottom ul li {
+        float: left;
+        margin: 10px;
+    }
+    
+    .bottom a:link, a:visited {
+        text-decoration: none;
+        display: block;
+        padding: 8px;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .bottom a:hover {
+        background-color:whitesmoke;
+        color:black;
+    }
+
+}
+
+
