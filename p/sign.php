@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"/>
-  <link rel="stylesheet" type="text/css" href="style/style.css">
+  <link rel="stylesheet" type="text/css" href="../style/style.css">
 </head>
 <body>
   <header>
@@ -16,12 +16,12 @@
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="p/Blogs1.html">Blogs</a></li>
-          <li><a href="p/stress.html">Stress Meter</a></li>
-          <li><a href="p/suicide.html">Suicide Prevention</a></li>
-          <li><a href="p/faq.php">FAQ</a></li>
-          <li><a href="p/contact.php">Contact</a></li> 
-          <li><button class="login"><a href="p/login.php">LOGIN</a></button></li>
+          <li><a href="../p/Blogs1.html">Blogs</a></li>
+          <li><a href="../p/stress.html">Stress Meter</a></li>
+          <li><a href="../p/suicide.html">Suicide Prevention</a></li>
+          <li><a href="../p/faq.php">FAQ</a></li>
+          <li><a href="../p/contact.php">Contact</a></li> 
+          <li><button class="login"><a href="logout.php">LOGOUT</a></button></li>
         </ul>
       </nav>
       <div class="menu-toggle"><i class=" fa fa-bars" aria-hidden="true"></i></div>
@@ -34,10 +34,24 @@
           })
         })
     </script>  
+
       <div class="content">
+      <?php
+include('session.php');
+$_SESSION['pageStore'] = "sign.php";
+
+if(!isset($_SESSION['login_id'])){
+header("location: login.php"); // Redirecting To login
+}
+echo '<div style="font-size: 25px; color:yellow;text-align:center;margin-bottom:10px;margin-right:350px;">
+<strong>WELCOME!</strong>
+'.$session_fullName
+.'
+</div>';
+?>
       <b><h1>Affordable private online counselings<br> anytime anywhere.</h1><br><br><br>
       <h2>Talk with licensed,professional therapist online.</h2><br><br>
-      <button class="start"><a href="p/register.php">Get Started</a></button><br><br>
+      <button class="start"><a href="../p/register.php">Get Started</a></button><br><br>
       <h3>FreeFly will match you to one of 100 licensed therapist.<br>Get feedback,advice and guidance from your counselor.</h3></b>
     </div>
     <div class="box">
@@ -55,37 +69,37 @@
   <footer>
     <div class="wrapper">
       <div>
-        <img src="Image/Screenshot (227).png" />
+        <img src="../Image/Screenshot (227).png" />
         <div class="img-text">
           <h2>Saumya Mukherjee</h2>
         </div>
       </div>
       <div>
-        <img src="Image/Screenshot (229).png" />
+        <img src="../Image/Screenshot (229).png" />
         <div class="img-text">
           <h2>Tanisha Chatterjee</h2>
         </div>
       </div>
       <div>
-        <img src="Image/Screenshot (230).png" />
+        <img src="../Image/Screenshot (230).png" />
         <div class="img-text">
           <h2>krystal D'souza</h2>
         </div>
       </div>
       <div>
-        <img src="Image/Screenshot (231).png" />
+        <img src="../Image/Screenshot (231).png" />
         <div class="img-text">
           <h2>Kiara Peru</h2>
         </div>
       </div>
       <div>
-        <img src="Image/Screenshot (232).png" />
+        <img src="../Image/Screenshot (232).png" />
         <div class="img-text">
           <h2>Sonal Mittal</h2>
         </div>
       </div>
       <div>
-        <img src="Image/Screenshot (233).png" />
+        <img src="../Image/Screenshot (233).png" />
         <div class="img-text">
           <h2>Riya Bhardwaj</h2>
         </div>
@@ -140,7 +154,7 @@
     <hr width="100%" noshade>
     <section class="table">
       <h1>Join over 1000 people who decided to<br><br><span style="color:green;">get help and get happy.</span></h1><br>
-      <button class="start"><a href="p/register.php">Get Started</a></button><br><br><br>
+      <button class="start"><a href="../p/register.html">Get Started</a></button><br><br><br>
       <h4>If you are in a crisis or any other person may need help  then Hurry visit the counsellor-  use this site.<br><span style="color:green;">The resources</span> can provide you with immediate help.</h4>
     </section>
     <hr width="100%" noshade>
@@ -172,4 +186,3 @@
   </footer>
 </body>
 </html>
-

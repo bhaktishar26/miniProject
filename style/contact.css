@@ -65,18 +65,6 @@
     display: none;
 }
 
-.login{
-    width:120px;
-    background-color: #033260;
-    border-radius: 5px;
-    color:white;
-    height: 60px;
-    font-size: 18px;
-    margin-top: 5px;
-    text-align: center;
-    margin-left: 10px;
-}
-
   
   .contact-section{
     width: 100%;

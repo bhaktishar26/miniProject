@@ -22,7 +22,6 @@
           <li><a href="../p/stress.html">Stress Meter</a></li>
           <li><a href="../p/faq.php">FAQ</a></li>
           <li><a href="#">Contact</a></li> 
-          <li><button class="login"><a href="signup.php">LOGIN</a></button></li>
         </ul>
       </nav>
       <div class="menu-toggle"><i class=" fa fa-bars" aria-hidden="true"></i></div>
