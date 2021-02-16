@@ -84,7 +84,7 @@ $conn->close(); // Closing database Connection
      </div>
 
      <div class="rlform-group">
-	  <label>Conform password</label>
+	  <label>Confirm password</label>
 	  <input type="password" name="conformpassword" id="conformPass" class="rlform-input" required>
      </div>
 
