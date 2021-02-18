@@ -167,12 +167,12 @@ echo '<div style="font-size: 25px; color:yellow;text-align:center;margin-bottom:
       </ul>
     </section>
     <section class="end">
-      <ul>
+    <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">Advice</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="p/suicide.html">Advice</a></li>
+          <li><a href="p/faq.php">FAQ</a></li>
+          <li><a href="p/blogs1.html">Blog</a></li>
+          <li><a href="p/contact.php">Contact</a></li>
       </ul>
     </section>
     <section class="en1">

@@ -16,9 +16,9 @@
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="p/Blogs1.html">Blogs</a></li>
-          <li><a href="p/stress.html">Stress Meter</a></li>
-          <li><a href="p/suicide.html">Suicide Prevention</a></li>
+          <li><a href="p/login.php">Blogs</a></li>
+          <li><a href="p/login.php">Stress Meter</a></li>
+          <li><a href="p/login.php">Suicide Prevention</a></li>
           <li><a href="p/faq.php">FAQ</a></li>
           <li><a href="p/contact.php">Contact</a></li> 
           <li><button class="login"><a href="p/login.php">LOGIN</a></button></li>
@@ -155,10 +155,10 @@
     <section class="end">
       <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">Advice</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="p/suicide.html">Advice</a></li>
+          <li><a href="p/faq.php">FAQ</a></li>
+          <li><a href="p/blogs1.html">Blog</a></li>
+          <li><a href="p/contact.php">Contact</a></li>
       </ul>
     </section>
     <section class="en1">

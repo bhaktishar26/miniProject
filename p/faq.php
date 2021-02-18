@@ -17,7 +17,7 @@
           </label>
           <ul class="menu">
               <li style="float: left; margin-right: 400px;"><a>FreeFly</a></li>
-              <li><a href="../index.html">Home</a></li>
+              <li><a href="../p/sign.php">Home</a></li>
               <li><a href="../p/Blogs1.html">Blogs</a></li>
               <li><a href="stress.html">Stress Meter</a></li>
               <li><a href="../p/suicide.html">Suicide Prevention</a></li>
