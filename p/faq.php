@@ -22,7 +22,7 @@
               <li><a href="stress.html">Stress Meter</a></li>
               <li><a href="../p/suicide.html">Suicide Prevention</a></li>
               <li><a href="#">FAQ</a></li>
-              <li><a href="../p/contact.html">Contact</a></li> 
+              <li><a href="../p/contact.php">Contact</a></li> 
               <label for="check" class="hide-btn">
                   <i class="fa fa-times"></i>
               </label>
